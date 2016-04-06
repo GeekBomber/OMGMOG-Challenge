@@ -5,3 +5,19 @@
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
+
+.dialog {
+	background-color: #98aeb6;
+}
+
+.Text {
+    height: 40%;
+    width: 80%;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	background-color: #cdc1c5;
+}
+
+.Option {
+	color: #326eb2;
+}
