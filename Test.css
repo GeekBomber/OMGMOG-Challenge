@@ -1,23 +1,29 @@
 .Open {
 	border-radius: 35%;
-	border-color: #326eb2;
+	background-color: #326eb2;
 	color: #ffffff;
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 40px;
 }
 
 .dialog {
-	background-color: #98aeb6;
+	background-color: black;
 }
 
 .Text {
     height: 40%;
     width: 80%;
     font-family: Tahoma, Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 30px;
 	background-color: #cdc1c5;
+	color: #326eb2;
 }
 
 .Option {
 	color: #326eb2;
+}
+
+#Pop {
+	max-height: 80%;
+	width: auto;
 }
