@@ -1,4 +1,4 @@
-.Open {
+#Open {
 	border-radius: 35%;
 	background-color: #326eb2;
 	color: #ffffff;
@@ -8,6 +8,9 @@
 
 .dialog {
 	background-color: black;
+    display: none;
+    border-color: #ffffff;
+    border-width: 10px;
 }
 
 .Text {
@@ -21,9 +24,20 @@
 
 .Option {
 	color: #326eb2;
+	font-size: 30px;
+	height: 40px;
+	width: auto;
 }
 
 #Pop {
 	max-height: 80%;
 	width: auto;
+}
+
+.Option.onclick {
+  visibility: hidden;
+}
+
+#Topper {
+	text-decoration: underline;
 }
