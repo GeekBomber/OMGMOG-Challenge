@@ -1,32 +1,22 @@
 
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'none')
-          e.style.display = 'block';
-       else
-          e.style.display = 'none';
+    //function toggle_visibility(id) {
+      // var e = document.getElementById(id);
+       //if(e.style.display != 'none')
+         // e.style.display = 'block';
+       //else
+         // e.style.display = 'none';
     }
 
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
+window.togglevisibility = function(id) {
+  var element = document.getElementById(id);
 
-    function toggle_background(id) {
-      var b = document.getElementById(id);
-      if (b.style.background-color == '#ffffff')
-          b.style.background-color = '#69675B';
-      else
-          b.style.background-color = '#ffffff';
-    }
+  // If the element is not hidden
+  if (element.style.display != 'none') { // True if "inline", "block"
+    // Hide it, using the CSS "display: none;"
+    element.style.display = 'none';
+  } else {
+    // Otherwise, show it using the CSS "display: block;"
+    element.style.display = 'block';
+  }
 
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
+};

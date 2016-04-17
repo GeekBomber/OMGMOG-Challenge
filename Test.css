@@ -8,7 +8,6 @@
 
 .dialog {
 	background-color: black;
-    display: none;
     border-color: #9a998f;
     border-width: 10px;
 }
@@ -36,19 +35,8 @@
 	width: auto;
 }
 
-.Option.onclick {
-  visibility: hidden;
-}
-
 #Topper {
 	text-decoration: underline;
 	background-color: #9a998f;
 }
 
-#Cancel {
-	background-color: #cdc1c5;
-}
-
-#Cancel.hover {
-	text-decoration: underline;
-}
