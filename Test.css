@@ -9,7 +9,7 @@
 .dialog {
 	background-color: black;
     display: none;
-    border-color: #ffffff;
+    border-color: #9a998f;
     border-width: 10px;
 }
 
@@ -27,6 +27,8 @@
 	font-size: 30px;
 	height: 40px;
 	width: auto;
+	background-color: #9a998f;
+}
 }
 
 #Pop {
@@ -39,5 +41,14 @@
 }
 
 #Topper {
+	text-decoration: underline;
+	background-color: #9a998f;
+}
+
+#Cancel {
+	background-color: #cdc1c5;
+}
+
+#Cancel.hover {
 	text-decoration: underline;
 }
